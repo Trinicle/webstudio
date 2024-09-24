@@ -1,0 +1,9 @@
+{
+  "name": "webstudio-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/webstudio-e2e/src",
+  "implicitDependencies": ["webstudio"],
+  "// targets": "to see all targets run: nx show project webstudio-e2e --web",
+  "targets": {}
+}
