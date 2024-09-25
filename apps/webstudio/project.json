@@ -22,7 +22,10 @@
             "input": "apps/webstudio/public"
           }
         ],
-        "styles": ["apps/webstudio/src/styles.scss"],
+        "styles": [
+          "libs/shared/src/themes/styles.scss",
+          "apps/webstudio/src/styles.scss"
+        ],
         "scripts": []
       },
       "configurations": {
@@ -84,6 +87,56 @@
         "port": 4200,
         "staticFilePath": "dist/apps/webstudio/browser",
         "spa": true
+      }
+    },
+    "storybook": {
+      "executor": "@storybook/angular:start-storybook",
+      "options": {
+        "port": 4400,
+        "configDir": "apps/webstudio/.storybook",
+        "browserTarget": "webstudio:build",
+        "compodoc": false,
+        "styles": ["libs/shared/src/themes/styles.scss"]
+      },
+      "configurations": {
+        "ci": {
+          "quiet": true
+        }
+      }
+    },
+    "build-storybook": {
+      "executor": "@storybook/angular:build-storybook",
+      "outputs": ["{options.outputDir}"],
+      "options": {
+        "outputDir": "dist/storybook/webstudio",
+        "configDir": "apps/webstudio/.storybook",
+        "browserTarget": "webstudio:build",
+        "compodoc": false
+      },
+      "configurations": {
+        "ci": {
+          "quiet": true
+        }
+      }
+    },
+    "test-storybook": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "test-storybook -c apps/webstudio/.storybook --url=http://localhost:4400"
+      }
+    },
+    "static-storybook": {
+      "executor": "@nx/web:file-server",
+      "dependsOn": ["build-storybook"],
+      "options": {
+        "buildTarget": "webstudio:build-storybook",
+        "staticFilePath": "dist/storybook/webstudio",
+        "spa": true
+      },
+      "configurations": {
+        "ci": {
+          "buildTarget": "webstudio:build-storybook:ci"
+        }
       }
     }
   }
