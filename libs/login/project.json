@@ -2,7 +2,7 @@
   "name": "login",
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "libs/login/src",
-  "prefix": "ws",
+  "prefix": "lib",
   "projectType": "library",
   "tags": [],
   "targets": {
@@ -32,6 +32,55 @@
     },
     "lint": {
       "executor": "@nx/eslint:lint"
+    },
+    "storybook": {
+      "executor": "@storybook/angular:start-storybook",
+      "options": {
+        "port": 4400,
+        "configDir": "libs/login/.storybook",
+        "browserTarget": "login:build-storybook",
+        "compodoc": false
+      },
+      "configurations": {
+        "ci": {
+          "quiet": true
+        }
+      }
+    },
+    "build-storybook": {
+      "executor": "@storybook/angular:build-storybook",
+      "outputs": ["{options.outputDir}"],
+      "options": {
+        "outputDir": "dist/storybook/login",
+        "configDir": "libs/login/.storybook",
+        "browserTarget": "login:build-storybook",
+        "compodoc": false
+      },
+      "configurations": {
+        "ci": {
+          "quiet": true
+        }
+      }
+    },
+    "test-storybook": {
+      "executor": "nx:run-commands",
+      "options": {
+        "command": "test-storybook -c libs/login/.storybook --url=http://localhost:4400"
+      }
+    },
+    "static-storybook": {
+      "executor": "@nx/web:file-server",
+      "dependsOn": ["build-storybook"],
+      "options": {
+        "buildTarget": "login:build-storybook",
+        "staticFilePath": "dist/storybook/login",
+        "spa": true
+      },
+      "configurations": {
+        "ci": {
+          "buildTarget": "login:build-storybook:ci"
+        }
+      }
     }
   }
 }

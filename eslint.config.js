@@ -34,7 +34,7 @@ module.exports = [
         'error',
         { ignoredFiles: ['{projectRoot}/eslint.config.{js,cjs,mjs}'] },
       ],
-      'no-unused-expressions': 'off'
+      'no-unused-expressions': 'off',
     },
     languageOptions: { parser: require('jsonc-eslint-parser') },
   },
@@ -99,4 +99,608 @@ module.exports = [
     },
     languageOptions: { parser: require('jsonc-eslint-parser') },
   },
+  {
+    files: ['**/*.json'],
+    rules: {
+      '@nx/dependency-checks': [
+        'error',
+        { ignoredFiles: ['{projectRoot}/eslint.config.{js,cjs,mjs}'] },
+      ],
+    },
+    languageOptions: { parser: require('jsonc-eslint-parser') },
+  },
+  {
+    files: ['**/*.json'],
+    rules: {
+      '@nx/dependency-checks': [
+        'error',
+        { ignoredFiles: ['{projectRoot}/eslint.config.{js,cjs,mjs}'] },
+      ],
+    },
+    languageOptions: { parser: require('jsonc-eslint-parser') },
+  },
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
+{
+    files: ["**/*.json"],
+    rules: { "@nx/dependency-checks": [
+            "error",
+            { ignoredFiles: ["{projectRoot}/eslint.config.{js,cjs,mjs}"] }
+        ] },
+    languageOptions: { parser: require("jsonc-eslint-parser") }
+},
 ];
