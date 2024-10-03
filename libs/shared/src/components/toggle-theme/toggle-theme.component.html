@@ -1,0 +1,12 @@
+<button
+  hlmBtn
+  variant="ghost"
+  class="hover:bg-transparent"
+  (click)="toggleTheme()"
+>
+  @if (theme() === 'dark') {
+  <hlm-icon size="base" name="lucideMoon" color="white" />
+  } @else {
+  <hlm-icon size="base" name="lucideSun" color="white" />
+  }
+</button>

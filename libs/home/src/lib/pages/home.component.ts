@@ -5,11 +5,18 @@ import { HlmButtonDirective } from '@spartan-ng/ui-button-helm';
 import { HlmIconComponent } from '@spartan-ng/ui-icon-helm';
 import { provideIcons } from '@ng-icons/core';
 import { lucideMoon, lucideSun } from '@ng-icons/lucide';
+import { ToggleThemeComponent } from '@webstudio/shared';
 
 @Component({
   selector: 'ws-home',
   standalone: true,
-  imports: [CommonModule, RouterLink, HlmButtonDirective, HlmIconComponent],
+  imports: [
+    CommonModule,
+    RouterLink,
+    HlmButtonDirective,
+    HlmIconComponent,
+    ToggleThemeComponent,
+  ],
   providers: [provideIcons({ lucideSun, lucideMoon })],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss',
