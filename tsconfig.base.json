@@ -74,7 +74,8 @@
       "@webstudio/design": ["libs/design/src/index.ts"],
       "@webstudio/home": ["libs/home/src/index.ts"],
       "@webstudio/login": ["libs/login/src/index.ts"],
-      "@webstudio/shared": ["libs/shared/src/index.ts"]
+      "@webstudio/shared": ["libs/shared/src/index.ts"],
+      "@webstudio/signup": ["libs/signup/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]

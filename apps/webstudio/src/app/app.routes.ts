@@ -22,6 +22,11 @@ export const appRoutes: Route[] = [
     loadChildren: () => import('@webstudio/login').then((w) => w.loginRoutes),
   },
   {
+    path: 'signup',
+    pathMatch: 'full',
+    loadChildren: () => import('@webstudio/signup').then((w) => w.signupRoutes),
+  },
+  {
     path: '**',
     redirectTo: '/home',
   },

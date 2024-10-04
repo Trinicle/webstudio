@@ -2,7 +2,7 @@ import { Component, inject, PLATFORM_ID, signal } from '@angular/core';
 import { CommonModule, isPlatformBrowser } from '@angular/common';
 import { HlmButtonDirective } from '@spartan-ng/ui-button-helm';
 import { HlmIconComponent } from '@spartan-ng/ui-icon-helm';
-import { ThemeService } from '@webstudio/shared';
+import { ThemeService } from '../../services';
 
 @Component({
   selector: 'ws-toggle-theme',

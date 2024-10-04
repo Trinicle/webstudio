@@ -1,0 +1,67 @@
+<div class="base flex items-center">
+  <section class="w-[30rem] dark:bg-black bg-white mx-auto" hlmCard>
+    <div hlmCardHeader>
+      <h3 class="text-3xl" hlmCardTitle>Sign up</h3>
+      <p hlmCardDescription>This is an ongoing project</p>
+    </div>
+    <form [formGroup]="signupForm" (ngSubmit)="onSubmit()">
+      <div class="flex flex-col gap-4 mb-10" hlmCardContent>
+        <label hlmLabel>
+          <p class="text-base">Email <span class="text-red-600">*</span></p>
+          <hlm-form-field>
+            <input
+              class="w-full mt-2"
+              placeholder="Email"
+              formControlName="email"
+              type="email"
+              pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+              hlmInput
+            />
+            @if (signupForm.get('email')?.hasError('pattern')) {
+            <hlm-error>Email is invalid</hlm-error>
+            } @else {
+            <hlm-error>Email is required</hlm-error>
+            }
+          </hlm-form-field>
+        </label>
+        <label hlmLabel>
+          <p class="text-base">Password <span class="text-red-600">*</span></p>
+          <hlm-form-field>
+            <input
+              class="w-full mt-2"
+              placeholder="Password"
+              formControlName="password"
+              type="password"
+              hlmInput
+            />
+            <hlm-error>Password is required</hlm-error>
+          </hlm-form-field>
+        </label>
+        <label hlmLabel>
+          <p class="text-base">
+            Confirm Password <span class="text-red-600">*</span>
+          </p>
+          <hlm-form-field>
+            <input
+              class="w-full mt-2"
+              placeholder="Password"
+              formControlName="confirmPassword"
+              type="password"
+              hlmInput
+            />
+            @if (signupForm.get('confirmPassword')?.hasError('mismatch')) {
+            <hlm-error>Password does not match</hlm-error>
+            } @else {
+            <hlm-error>Password confirmation is required</hlm-error>
+            }
+          </hlm-form-field>
+        </label>
+      </div>
+      <div hlmCardFooter>
+        <button class="w-full" variant="default" type="submit" hlmBtn>
+          Submit
+        </button>
+      </div>
+    </form>
+  </section>
+</div>
